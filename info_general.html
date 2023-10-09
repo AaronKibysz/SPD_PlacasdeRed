@@ -4,23 +4,82 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>SPD HTML Informacion general</title>
+  <title>SPD HTML Controlador</title>
 </head>
 <body>
   <div class="contenedor">
     <h2 class="titulo2">Navegación</h2>
     <nav class="botonera">
       <ul>
-        <li><a href="index.html">Página Principal</a></li>        
+        <li><a href="index.html">Página Principal</a></li>
+        <li><a href="info_general.html">Informacion general</a></li>
         <li><a href="tipos_componentes.html">Tipos y componentes</a></li>
-        <li><a href="controlador.html">Funcionamiento del controlador</a></li>
         <li><a href="recomendaciones.html">Recomendaciones</a></li>
       </ul>
     </nav>
+    <h1 class="titulo">Informacion General </h1>
+    <div class="contenedorTexto">
+      <p class="texto">Las
+         NIC modernas proporcionan funcionalidades a los ordenadores, como soporte para
+         interrupción de E/S, interfaces de acceso directo a memoria (DMA), transmisión de datos,
+         ingeniería de tráfico de red y particionamiento.<br></p>
+    </div>
+    <div class="contenedorImg">
+      <img src="imagenes/informacion_general_1.png" alt="informacion_general1" id="imagenes">
+    </div>
+    <div class="contenedorTexto">
+      <p class="texto">
+        Una NIC proporciona a un ordenador una conexión dedicada a tiempo completo a una red.
+        Implementa los circuitos de capa física necesarios para comunicarse con un estándar de capa
+        de enlace de datos, como Ethernet o Wi-Fi. Cada tarjeta representa un dispositivo y puede
+        preparar, transmitir y controlar el flujo de datos en la red.<br><br>      
+      </p>
+    </div>
+    <div class="contenedorImg">
+      <img src="imagenes/informacion_general_2.png" alt="placa_de_red_wifi" class="imagenes">
+    </div>
+    <div class="contenedorTexto">
+      <p class="texto">
+        La NIC utiliza el modelo OSI para enviar señales en la capa física, transmitir paquetes de datos
+        en la capa de red y funcionar como interfaz en la capa TCP/IP.
 
+        La tarjeta de red actúa como intermediario entre un ordenador y una red de datos. Por
+        ejemplo, cuando un usuario solicita una página web, el ordenador pasa la solicitud a la tarjeta
+        de red, que la convierte en impulsos eléctricos.
 
-
-
+      </p>      
+    </div>
+    <div class="contenedorImg">
+      <img src="imagenes/informacion_general_3.png" alt="Modelo OSI" class="imagenes">
+    </div>
+    <div class="contenedorTexto">
+      <p class="texto">
+        Un servidor web en Internet recibe los impulsos y responde enviando la página web de vuelta
+        a la tarjeta de red en forma de señales eléctricas. La tarjeta recibe estas señales y las traduce
+        en los datos que muestra el ordenador.
+  
+      </p>      
+    </div>
   </div>
+
+  
+  <div class="contenedorTexto">
+    <p class="texto">
+        Originalmente, los controladores de red se implementaban como tarjetas de expansión que
+        podían conectarse a un puerto del ordenador, un router o un dispositivo USB. Sin embargo,
+        los controladores más modernos están integrados directamente en el chipset de la placa base
+        del ordenador. Las tarjetas de expansión NIC pueden adquirirse en Internet o en tiendas si se
+        necesitan conexiones de red independientes adicionales. Al comprar una NIC, las
+        especificaciones deben corresponderse con el estándar de la red.
+        
+        El término tarjeta de interfaz de red suele considerarse intercambiable con los términos
+        controlador de interfaz de red, adaptador de red y adaptador LAN.     
+    </p>
+  </div>
+  <div class="contenedorImg">
+    <img src="imagenes/informacion_general_4.png" alt="Tarjeta de Red Integrada a la Motherboard" id="NIC-1">
+  </div>
+
+
 </body>
 </html>

@@ -60,3 +60,7 @@ body{
 .botonera ul li a{
   text-decoration: none;
 }
+
+#NIC-1{
+  width: 500px;
+}
