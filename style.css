@@ -3,11 +3,11 @@ body{
   padding: 0;
 }
 
-#contenedor{
+.contenedor{
   min-height: 100vh;
 }
 
-#titulo{
+.titulo{
   margin: 0;
   display: flex;
   justify-content: center;
@@ -15,18 +15,18 @@ body{
   padding-top: 5%;
 }
 
-#contenedorImg{
+.contenedorImg{
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
 
-#imgTarjetaRed{
+.imagenes{
   width: 350px;
 }
 
-#contenedorTexto{
+.contenedorTexto{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,22 +34,22 @@ body{
   padding-right: 250px;
 }
 
-#texto{
+.texto{
   text-align: justify;
 }
 
-#titulo2{
+.titulo2{
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
-#botonera{
+.botonera{
   padding: 25px;
 }
 
-#botonera ul{
+.botonera ul{
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -57,7 +57,6 @@ body{
   justify-content: space-around;
 }
 
-#botonera ul li a{
+.botonera ul li a{
   text-decoration: none;
-  
 }

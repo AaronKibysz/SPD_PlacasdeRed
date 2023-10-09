@@ -7,9 +7,9 @@
   <title>SPD HTML Controlador</title>
 </head>
 <body>
-  <div id="contenedor">
-    <h2 id="titulo2">Navegación</h2>
-    <nav id="botonera">
+  <div class="contenedor">
+    <h2 class="titulo2">Navegación</h2>
+    <nav class="botonera">
       <ul>
         <li><a href="index.html">Página Principal</a></li>
         <li><a href="info_general.html">Informacion general</a></li>
@@ -17,15 +17,15 @@
         <li><a href="recomendaciones.html">Recomendaciones</a></li>
       </ul>
     </nav>
-    <h1 id="titulo">Controlador de la Tarjeta de Red</h1>
-    <div id="contenedorTexto">
-      <p id="texto">El controlador de las Tarjetas de Interfaz de Red (NIC) desempeña un papel crucial en la conectividad de dispositivos en una red. Estas tarjetas son responsables de administrar el enlace físico entre los dispositivos y los medios compartidos de la red, lo que garantiza una comunicación eficiente. Para ello, las NIC deben ser capaces de interactuar con los protocolos de acceso al medio, como CSMA/CD o Token Ring, que rigen la arquitectura de la red a la que están conectadas. Las reglas de software implementadas en las NIC aseguran el cumplimiento de los protocolos de Control de Acceso al Medio (MAC) en el marco del modelo TCP/IP.<BR></p>
+    <h1 class="titulo">Controlador de la Tarjeta de Red</h1>
+    <div class="contenedorTexto">
+      <p class="texto">El controlador de las Tarjetas de Interfaz de Red (NIC) desempeña un papel crucial en la conectividad de dispositivos en una red. Estas tarjetas son responsables de administrar el enlace físico entre los dispositivos y los medios compartidos de la red, lo que garantiza una comunicación eficiente. Para ello, las NIC deben ser capaces de interactuar con los protocolos de acceso al medio, como CSMA/CD o Token Ring, que rigen la arquitectura de la red a la que están conectadas. Las reglas de software implementadas en las NIC aseguran el cumplimiento de los protocolos de Control de Acceso al Medio (MAC) en el marco del modelo TCP/IP.<br></p>
     </div>
-    <div id="contenedorImg">
-      <img src="imagenes/arquitectura-2.png" alt="imágen driver nic" id="imgTarjetaRed">
+    <div class="contenedorImg">
+      <img src="imagenes/arquitectura-2.png" alt="imágen driver nic" id="imagenes">
     </div>
-    <div id="contenedorTexto">
-      <p id="texto">
+    <div class="contenedorTexto">
+      <p class="texto">
         El propósito principal de una interfaz de red es permitir la transmisión y recepción de tramas de datos. Para lograr esto, la NIC interactúa estrechamente con el sistema operativo (SO) del host y el software de usuario. A continuación, se detallan los pasos clave de esta interacción:<br><br>     
         <strong>1.  Activación de la NIC por llegada de tramas: </strong>Activación de la NIC por llegada de tramas: Cuando la NIC detecta la llegada de tramas de la red, notifica al sistema operativo del host. Este evento de activación indica al SO que hay datos entrantes que deben ser procesados.<br><br>
         <strong>2.  Activación de la NIC para transmitir tramas: </strong>Del mismo modo, cuando el software de usuario solicita el envío de tramas a través de la red, el sistema operativo activa la NIC para que esté lista para transmitir las tramas.<br><br>
@@ -35,24 +35,24 @@
         <strong>6.	Proceso de recepción de tramas: </strong>La recepción de tramas desde la NIC y su inserción en la memoria del PC es un proceso más complejo que la transmisión. Implica la lectura de los descriptores de búfer de recepción, la copia de la trama desde la NIC a la memoria del host y la actualización de los BD para indicar el espacio disponible en la memoria.<br><br> 
       </p>
     </div>
-    <div id="contenedorImg">
-      <img src="imagenes/arquitectura-1.png" alt="imágen driver nic" id="imgTarjetaRed">
+    <div class="contenedorImg">
+      <img src="imagenes/arquitectura-1.png" alt="imágen driver nic" class="imagenes">
     </div>
-    <div id="contenedorTexto">
-      <p id="texto">
+    <div class="contenedorTexto">
+      <p class="texto">
         Por otro lado, las NIC pueden ser específicas para diferentes tecnologías de red, como Token Ring, que utiliza un protocolo de paso de testigo y es conocido por su capacidad de evitar colisiones mediante el uso de un testigo. En este sistema, las estaciones esperan su turno para transmitir, lo que evita colisiones y mejora la eficiencia de la red. Además, el tamaño de las tramas y la capacidad de dispositivos conectados son consideraciones importantes en el diseño de una red Token Ring.
       </p>      
     </div>
-    <div id="contenedorImg">
-      <img src="imagenes/arquitectura-3.png" alt="imágen driver nic" id="imgTarjetaRed">
+    <div class="contenedorImg">
+      <img src="imagenes/arquitectura-3.png" alt="imágen driver nic" class="imagenes">
     </div>
-    <div id="contenedorTexto">
-      <p id="texto">
+    <div class="contenedorTexto">
+      <p class="texto">
         En contraste, las NIC utilizadas en redes Ethernet con protocolo CSMA/CD permiten la comunicación en una red mediante el acceso no determinista. Los dispositivos deben escuchar la red continuamente y esperar un tiempo aleatorio después de una colisión antes de retransmitir. La segmentación de la red en dominios de colisión más pequeños se utiliza para reducir las colisiones y mejorar el rendimiento.  
       </p>      
     </div>
-    <div id="contenedorImg">
-      <img src="imagenes/arquitectura-4.png" alt="imágen driver nic" id="imgTarjetaRed">
+    <div class="contenedorImg">
+      <img src="imagenes/arquitectura-4.png" alt="imágen driver nic" class="imagenes">
     </div> 
   </div>
 </body>
