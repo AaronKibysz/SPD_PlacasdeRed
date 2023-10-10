@@ -69,6 +69,40 @@ body, html{
   width: 500px;
 }
 
-.fondoContenedor{
-  background-color: rgba(81, 81, 81, 0.661);
+.contenedorEncabezado{
+  background-color: rgba(226, 226, 226, 0.705);
+  display: flex;
+  margin: 5%;
+}
+
+.contenedorEncabezado p{
+  padding-left: 12%;
+  font-size: medium;
+  font-weight: 700;
+
+}
+
+.contenedorEncabezado h1{
+  padding-left: 12%;
+}
+
+.imagenEncabezado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.imagenEncabezado img{
+  object-fit: cover;
+  width:80%;
+}
+
+.textoEncabezado{
+  width: 50%;
+}
+
+.contenedorDefault{
+  background-color: rgba(226, 226, 226, 0.705);
+  margin: 5%;
 }
