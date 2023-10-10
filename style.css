@@ -68,3 +68,7 @@ body, html{
 #NIC-1{
   width: 500px;
 }
+
+.fondoContenedor{
+  background-color: rgba(81, 81, 81, 0.661);
+}
