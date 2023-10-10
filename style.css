@@ -2,6 +2,9 @@ body, html{
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url(imagenes/posibleFondo3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .contenedor{
