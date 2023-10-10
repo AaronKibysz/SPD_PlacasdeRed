@@ -103,25 +103,27 @@ body, html{
 }
 
 .contenedorDefault{
-  background-color: rgba(226, 226, 226, 0.705);
+  background-color: rgba(255, 255, 255, 0.788);
   margin: 5%;
 }
 
 .contenedorControlador{
-  background-color: rgba(226, 226, 226, 0.705);
-  
+  background-color: rgba(255, 254, 254, 0.89);
+  margin: 5%;
 }
 
 .contenedorTextoControlador{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .textoControlador{
   text-align: justify;
+  font-size: large;
+
 }
 
 .tituloControlador{
@@ -148,5 +150,10 @@ body, html{
 
 .imagenesControlador{
   width: 350px;
+}
+
+.imagenEncabezadoControlador img{
+  object-fit: cover;
+  width:80%;
 }
 
