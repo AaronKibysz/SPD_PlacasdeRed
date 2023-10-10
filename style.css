@@ -139,9 +139,14 @@ body, html{
   padding: 10px;
 }
 
-.contenedorControlador{
+.contenedorImgControlador{
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
+
+.imagenesControlador{
+  width: 350px;
+}
+
