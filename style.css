@@ -123,3 +123,25 @@ body, html{
 .textoControlador{
   text-align: justify;
 }
+
+.tituloControlador{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.titulo2Controlador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.contenedorControlador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
