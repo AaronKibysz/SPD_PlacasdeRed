@@ -106,3 +106,20 @@ body, html{
   background-color: rgba(226, 226, 226, 0.705);
   margin: 5%;
 }
+
+.contenedorControlador{
+  background-color: rgba(226, 226, 226, 0.705);
+  
+}
+
+.contenedorTextoControlador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.textoControlador{
+  text-align: justify;
+}
