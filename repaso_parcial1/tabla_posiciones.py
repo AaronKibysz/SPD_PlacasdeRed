@@ -45,22 +45,24 @@ for i in range(len(dict_teams)):
                 dict_teams[list_teams[i]][1] += int(result[0:result.find(':')])
                 dict_teams[list_teams[j]][1] += int(result[result.find(':')+1:])
                 break
-dict_teams_sorted = dict(sorted(dict_teams.items(), key=lambda item: (item[1][1]), reverse=True))
-dict_teams_sorted2 = dict(sorted(dict_teams_sorted.items(), key=lambda item: (item[1][0]), reverse=True))
+
+dict_teams = dict(sorted(dict_teams.items(), key=lambda item: (item[1][1]), reverse=True))
+dict_teams = dict(sorted(dict_teams.items(), key=lambda item: (item[1][0]), reverse=True))
 
 
 print('\n---------TABLA DE POSICIONES FINAL---------\n')
 
 print('Equipo           Puntos          Goles')
-for teams, teams_points_goals in dict_teams_sorted2.items():
+for teams, teams_points_goals in dict_teams.items():
     needed_spaces = 19 - len(teams)
     for i in range(needed_spaces):
         teams += ' '
     print(teams, end='')
     print(teams_points_goals[0], '             ', teams_points_goals[1])
 
-list_teams = list(dict_teams_sorted2.keys())
-for i in range(amount_qualy):
+print('')
+list_teams = list(dict_teams.keys())
+for i in range(min(amount_qualy, len(list_teams))):
     print(f'Equipo clasificado {i+1}: {list_teams[i]}')
 
 
