@@ -189,3 +189,53 @@ body, html{
 .imagenComp{
   width: 450px;
 }
+
+.TituloInformacionGeneral{  
+  background-color: rgba(255, 255, 255, 0.788);
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: -50%;
+}
+
+.ContenedorInformacionGeneral{
+  background-color: rgba(255, 255, 255, 0.788);
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+
+}
+
+.textoInfoGeneral{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imagenInfoGeneral1{
+
+  width: 450px
+}
+
+
+.imagenInfoGeneral{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.imagenInfoGeneral2{
+  width: 280px
+  
+}
+
+
+.imagenInfoGeneral5{
+  width: 500px
+
+}
