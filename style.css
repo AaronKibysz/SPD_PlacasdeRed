@@ -58,7 +58,7 @@ body, html{
   padding: 0;
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .botonera ul li a{
@@ -157,3 +157,35 @@ body, html{
   width:80%;
 }
 
+.contenedorTitulo{
+  background-color: rgba(255, 255, 255, 0.788);
+  margin: 5%;
+}
+
+.contenedorTitulo h1{
+  padding: 5px;
+}
+
+.contenedorBotonera{
+  background-color: rgba(255, 255, 255, 0.788);
+  margin: 5%;
+}
+
+.contenedorBotonera ul li{
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.641);
+  border-radius: 10px;
+}
+
+.contenedorBotonera ul li:hover{
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+.contenedorBotonera ul li a{
+  color: rgb(226, 226, 226);
+  font-weight: bold;
+}
+
+.imagenComp{
+  width: 450px;
+}
