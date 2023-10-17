@@ -213,7 +213,7 @@ body, html{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 5px;
+  padding-left: 15px;
 }
 
 .imagenInfoGeneral1{
@@ -281,6 +281,6 @@ body, html{
   justify-content: center;
   align-items: center;
   padding-right: 5px;
-  padding-left: 5px;
+  padding-left: 15px;
 
 }
