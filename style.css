@@ -266,7 +266,13 @@ body, html{
   display: flex;
   justify-content: center;
   align-items: center
+}
 
+.ContenedorRecomendacionesImg{
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 
 .textoRecomendaciones{
