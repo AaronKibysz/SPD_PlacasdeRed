@@ -35,4 +35,29 @@ VALUES
     ('Logitech Brio 4K 90FPS', 190000, 3, 10)
     ('Redragon Hitman GW800', 35.999, 14, 10);
 
+INSERT INTO Clientes(Nombre, Apellido, Direccion, NumeroTelefono)
+VALUES
+    ('Luis', 'Samir', 'Av Bartolomé Mitre 470', 66147936)
+    ('Daniela', 'Mora', 'Av Meeks 155', 44861932)
+    ('Lorenzo', 'Madera', 'Calle 37 315', 90996862)
+    ('Ornela', 'Sevilla', 'San Juan 1407', 4235444);
 
+INSERT INTO Proveedores(NombreProveedor, DireccionProveedor, TelefonoProveedor, EsNacional)
+VALUES
+    ('Soluciones ByteVista', 'General Manuel Belgrano 3280', 29944512, 1)
+    ('SynthoSys Technologies', '641 Dunstable Rd', 87146355, 0)
+    ('Dinámica CyberNex', 'Corrientes 2520', 3592126, 1);
+
+INSERT INTO Compra(ProveedoresID, DispositivoID, CantidadCompra)
+VALUES
+    (2, 19, 5)
+    (3, 11, 6)
+    (3, 17, 2)
+    (1, 1, 5);
+
+INSERT INTO Venta(ClientesID, DispositivoID, CantidadVenta)
+VALUES
+    (4, 1, 1)
+    (2, 5, 2)
+    (3, 18, 1)
+    (2, 18, 1);

@@ -35,6 +35,7 @@ create table Compra(
     CompraID int auto_increment primary key;
     ProveedoresID int;
     DispositivoID int;
+    CantidadCompra int
     foreing key (ProveedoresID) references Proveedores(ProveedoresID);
     foreing key (DispositivoID) references Dispositivo(DispositivoID);
 )
@@ -43,6 +44,7 @@ create table Venta(
     VentaID int auto_increment primary key;
     ClientesID int;
     DispositivoID int;
+    CantidadVenta int;
     foreing key (ClientesID) references Clientes(ClientesID);
     foreing key (DispositivoID) references Dispositivo(DispositivoID);
 )
